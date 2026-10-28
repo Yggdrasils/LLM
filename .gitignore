@@ -1,0 +1,35 @@
+# Python 与本地开发环境
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+.vscode/
+.idea/
+*.egg-info/
+build/
+dist/
+.DS_Store
+Thumbs.db
+
+# 数据与运行产物：保留目录占位及说明，不提交生成文件
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+!/data/README.md
+/artifacts/**
+!/artifacts/**/
+!/artifacts/**/.gitkeep
+/runs/**
+!/runs/**/
+!/runs/**/.gitkeep
+/exports/**
+!/exports/**/
+!/exports/**/.gitkeep
+
+# 本地下载缓存
+.cache/

@@ -1,0 +1,4 @@
+# 依赖清单占位，当前不安装任何依赖。
+# 首次实现时再按本机驱动选择并验证 PyTorch/CUDA 组合。
+# 计划使用 PyTorch、datasets、tokenizers、NumPy、PyYAML；测试阶段再加入 pytest。
+# 验证后记录明确版本；当前没有可运行训练程序。
